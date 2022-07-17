@@ -1,0 +1,59 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base{
+    li {
+        @apply cursor-pointer
+    }
+    body {
+        @apply font-[Poppins]
+    }
+    .input-text{
+   @apply text-white bg-black text-opacity-70 transform -translate-x-2 -translate-y-4 scale-75;
+}
+    .h {
+        @apply  uppercase py-2 leading-normal
+    }
+    .custom-shadow {
+        box-shadow: 0 0 15px rgba(0,0,0,0.5)
+    }
+    .hw-inner {
+        width: 24rem;
+        height: 24rem;
+    }
+    .hw-outer {
+        width: 32rem;
+        height: 32rem;
+    }
+    h1 {
+        @apply h text-3xl
+    }
+    h2 {
+      @apply h text-xl
+    }
+    li{
+        @apply hover:scale-110 duration-300 hover:text-teal-400 text-xl px-1
+    }
+}
+@layer components {
+
+    .btn {
+        @apply p-2 my-6 text-xl bg-teal-600 text-white hover:bg-teal-700 hover:scale-105 uppercase cursor-pointer
+    }
+    .button {
+    @apply text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg
+    }
+}
+.content-div {
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;
+}
+.content-div:hover {
+background-image: linear-gradient(
+to right,
+rgba(112, 157, 255, 0.8),
+hsla(242, 74%, 61%, 0.8)
+)!important;
+}
