@@ -9,15 +9,15 @@ export const Home = (props: Props) => {
     <div id='home' className='bg-[#23304c] w-full h-fit min-h-screen flex justify-evenly items-center'>
         
        
-      <div className='flex flex-col justify-center items-center z-10 text-white '>
-         <img className='w-6 left-24 top-32 z-20 animate-ping' src="logo192.png" alt="" />
+      <div className='flex flex-col justify-center items-center z-10 text-white ml-8'>
+         {/* <img className='w-12 left-24 top-32 z-20 animate-ping' src="assets/logo.png" alt="" /> */}
             <div className=''>
             <p className='text-teal-600 text-xl'>Hi my name is</p>
             <h1 className='tracking-wider'>NGABONZIZA NESTOR</h1>
         <h1>I'm a Full stack developer</h1>
             <p>I am a full stack web and mobile app developer</p>
             </div>
-        <div className='flex gap-x-8 -ml-24'>
+        <div className='flex gap-x-8 -ml-8'>
           <Link className='btn group flex items-center border-2 border-white bg-transparent rounded-none font-normal' to="works" smooth={true} duration={500}>
           View My work <span className='group-hover:rotate-90 duration-300'><HiArrowNarrowRight className='ml-3' /></span> 
            </Link>
@@ -29,14 +29,17 @@ export const Home = (props: Props) => {
         </div>
         
         <div className='hidden md:flex justify-center items-center'>
-         <img className='w-64 h-64 rounded-full border-4 border-white custom-shadow' src="/logo192.png" alt="" />
+         <img className='w-64 h-64 rounded-full border-4 border-white custom-shadow' src="assets/PASSPORT.jpg" alt="" />
        {/*  <-- inner --> */}
         <div className='hw-inner flex justify-between items-center absolute border border-gray-500 rounded-full animate-spin-slow'>
           <div className='bg-black p-1 rounded-full custom-shadow h-10 w-10 transform -translate-x-5 anim-8s'>
             <img className='w-10 h-10 object-center animate-rotate-img anim-8s overflow-hidden' src="assets/nodejs-new-pantone-white.png" alt="" />
           </div>
-          <div className='bg-white rounded-full custom-shadow h-10 w-10 transform translate-x-5 translate-y-[11rem] anim-8s'>
-            <img className='w-10 h-10 object-center animate-rotate-img anim-8s object-fill overflow-cover rounded-full' src="assets/ts-logo-128.png" alt="" />
+          <div className='bg-white rounded-full custom-shadow h-10 w-10 transform -translate-x-5 translate-y-[12rem] anim-8s'>
+            <img className='w-10 h-10 object-center animate-rotate-img anim-8s rounded-full' src="assets/ts-logo-128.png" alt="" />
+          </div>
+          <div className='bg-white rounded-full custom-shadow h-10 w-10 transform translate-x-5 -translate-y-[9rem] anim-8s'>
+            <img className='w-10 h-10 object-center animate-rotate-img anim-8s rounded-full' src="assets/graphql.png" alt="" />
           </div>
           <div className='bg-white rounded-full -mx-10  custom-shadow h-10 w-10 transform -translate-x-5 anim-60s'>
             <img className='w-10 h-10 rounded-full object-center animate-rotate-img anim-8s' src="assets/1174949_js_react js_logo_react_react native_icon.png" alt="" />
@@ -49,8 +52,15 @@ export const Home = (props: Props) => {
           </div>
           <div className='bg-white -mx-10 rounded-full custom-shadow h-10 w-10 transform -translate-x-5'>
             <img className='w-10 h-10 rounded-full object-center animate-rotate-img anim-8s' src="assets/Java_logo_PNG9.png" alt="" />
+          </div>    
+ </div>
+        <div className='hw-outer flex justify-between items-center absolute border border-gray-500 rounded-full animate-spin-slow'>
+          <div className='bg-white rounded-full custom-shadow h-10 w-10 transform -translate-x-25 translate-y-15'>
+            <img className='w-10 h-10 rounded-full object-center animate-rotate-img anim-8s' src="assets/Docker_logo_PNG15.png" alt="" />
           </div>
-          
+          <div className='bg-white -mx-10 rounded-full custom-shadow h-10 w-10 transform -translate-x-15 translate-y-15'>
+            <img className='w-10 h-10 rounded-full object-center animate-rotate-img anim-8s' src="assets/python.png" alt="" />
+          </div>    
  </div>
         
         </div>

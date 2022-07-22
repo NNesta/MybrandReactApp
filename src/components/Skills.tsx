@@ -15,13 +15,16 @@ const Skills = (props: Props) => {
        <CardComponent image="assets/ts-logo-128.png" title='typescript' />
        <CardComponent image="assets/1174949_js_react js_logo_react_react native_icon.png" title='React JS' />
        <CardComponent image="assets/1174949_js_react js_logo_react_react native_icon.png" title='react native' />
-       <CardComponent image="nodejs-new-pantone-white.png" title='html' />
+       <CardComponent image="assets/html.png" title='html' />
+       <CardComponent image="assets/css.png" title='css' />
        <CardComponent image="assets/tailwindcss-mark.79614a5f61617ba49a0891494521226b.svg" title='Tailwind css' />
-       <CardComponent image="assets/GitHub-Mark-Light-120px-plus.png" title='github' />
-       <CardComponent image="nodejs-new-pantone-white.png" title='docker' />
-       <CardComponent image="nodejs-new-pantone-white.png" title='postgresql' />
-       <CardComponent image="nodejs-new-pantone-white.png" title='mongo db' />
-       <CardComponent image="assets/python-logo-master-v3-TM.psd" title='python' />
+       <CardComponent image="assets/graphql.png" title='Graphql' />
+       <CardComponent image="assets/rest-api.png" title='rest api' />
+       <CardComponent image="assets/GitHub-Mark-Light-120px-plus.png" title='Github' />
+       <CardComponent image="assets/Docker_logo_PNG15.png" title='docker' />
+       <CardComponent image="assets/postgresql.png" title='postgresql' />
+       <CardComponent image="assets/mongodb.png" title='mongo db' />
+       <CardComponent image="assets/python.png" title='python' />
        <CardComponent image="assets/Java_logo_PNG9.png" title='java' />
       </div>
       </div>

@@ -11,7 +11,9 @@ const Navbar = (props: Props) => {
   <div>
     <div className='bg-[#23304c] fixed top-0 left-0 flex justify-between w-full h-[80px] text-white z-50 px-4 items-center'>
         {/* <h1 className='animate-bounce'>Nestor</h1> */}
-        <h1>Nestor</h1>
+         <Link to="home" smooth={true} duration={500}>
+          <img className="w-16 h-16 rounded-full hover:scale-150" src="assets/logo.png" alt="" />
+        </Link>
     <ul className='hidden md:flex space-x-8 lg:mr-72'>
           <li>
            <Link to="home" smooth={true} duration={500}>
@@ -69,16 +71,16 @@ const Navbar = (props: Props) => {
     </ul>
       </div>
     {/* Social icon */}
-    <div className="flex flex-col fixed top-[35%] left-0 z-50">
+    <div className="hidden md:flex flex-col fixed top-[35%] left-0 z-50">
       <ul><li className="w-[120px] h-[60px]">
-          <a className="flex justify-between items-center w-full text-gray-300 bg-[#333333] -ml-[80px] hover:ml-[10px] transition duration-300" href="/">Github <FaGithub size={30}/> </a>
+          <a className="flex justify-between items-center w-full text-gray-300 bg-[#333333] -ml-[80px] hover:ml-[10px] transition duration-300" href="https://github.com/NNesta/">Github <FaGithub size={30}/> </a>
         </li>
         <li className="w-[120px] h-[60px]">
-          <a className="flex justify-between items-center w-full text-gray-300 bg-blue-600 -ml-[80px] hover:ml-[10px] transition duration-300" href="/">Linkedin <FaLinkedin size={30}/> </a>
+          <a className="flex justify-between items-center w-full text-gray-300 bg-blue-600 -ml-[80px] hover:ml-[10px] transition duration-300" href="https://www.linkedin.com/in/nestor-ngabonziza-5a6767155/">Linkedin <FaLinkedin size={30}/> </a>
         </li>
         
         <li className="w-[120px] h-[60px]">
-          <a className="flex justify-between items-center w-full text-gray-300 bg-teal-400 -ml-[80px] hover:ml-[10px] transition duration-300" href="/">Email <HiOutlineMail size={30} /> </a>
+          <a className="flex justify-between items-center w-full text-gray-300 bg-teal-400 -ml-[80px] hover:ml-[10px] transition duration-300" href="mailto:ngabonest@gmail.com">Email <HiOutlineMail size={30} /> </a>
         </li>
        {/*  <li className="w-[160px] h-[60px] flex justify-between items-center"> 
           <a className="flex gap-4 items-start w-full text-gray-500 -ml-[100px] hover:ml-[10px] transition duration-300" href="/">Resume <HiOutlineResume /> </a>
