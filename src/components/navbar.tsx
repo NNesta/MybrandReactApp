@@ -9,12 +9,12 @@ const Navbar = (props: Props) => {
   const handleClick = () => setNavbar(!navbar);
   return (
   <div>
-    <div className='bg-[#23304c] fixed top-0 left-0 flex justify-between w-full h-[80px] text-white z-50 px-4 items-center'>
+    <div className='bg-[#23304c] top-0 left-0 fixed flex justify-between w-screen h-[80px] text-white z-50 px-4 items-center'>
         {/* <h1 className='animate-bounce'>Nestor</h1> */}
          <Link to="home" smooth={true} duration={500}>
           <img className="w-16 h-16 rounded-full hover:scale-150" src="assets/logo.png" alt="" />
         </Link>
-    <ul className='hidden md:flex space-x-8 lg:mr-72'>
+    <ul className='hidden space-x-8 md:flex lg:mr-72'>
           <li>
            <Link to="home" smooth={true} duration={500}>
           Home
@@ -39,11 +39,11 @@ const Navbar = (props: Props) => {
           Contact
         </Link></li>
     </ul>
-    <div onClick={handleClick} className="md:hidden z-10">
+    <div onClick={handleClick} className="z-10 md:hidden">
       {!navbar ? <FaBars size={40} />: <FaTimes size={40} />}
     </div>
     {/* mobile menu */}
-    <ul className={!navbar ? "hidden": `flex flex-col absolute bg-[#23304c] top-0 left-0 w-full h-screen justify-center items-center`}>
+    <ul className={!navbar ? "fixed -left-[100%]": `flex flex-col absolute bg-[#23304c] top-0 left-0 w-full h-screen justify-center items-center ease-out duration-500`}>
       <li className="py-6 text-4xl">  
        <Link onClick={handleClick} to="home" smooth={true} duration={500}>
           Home

@@ -21,7 +21,7 @@ Software developer enthustiast with knowledge and experience in web development 
           </p>
           <p className='text-2xl font-bold'>I can work for <Typed className='text-teal-600' strings={[" Frontend", " Backend"]} typeSpeed={120} backSpeed={ 120 } loop backDelay={1200}/></p>
           <p className='text-2xl font-bold'>I can work for <Typed className='text-teal-600' strings={[" Website app", " Mobile app"]} typeSpeed={120} backSpeed={ 120 } loop backDelay={1200}/></p>
-          <a href='https://drive.google.com/file/d/16oJWMM37D_TJf2eakfqTeD_hF5RA56dl/view' className='btn mx-auto px-16 md:col-span-2'>
+          <a href='https://drive.google.com/file/d/1GbP44praIyFz6WKHLXzGNMwIGfVy1xv3/view' className='btn mx-auto px-16 md:col-span-2'>
             View my CV
           </a>
         

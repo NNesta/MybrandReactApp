@@ -7,6 +7,7 @@ import About from './components/About';
 import Contact from './components/Contact';
 import Navbar from './components/navbar';
 import Works from './components/Works';
+import Footer from './components/Footer';
 import { Home } from './components/Home';
 
 const root = ReactDOM.createRoot(
@@ -21,7 +22,7 @@ root.render(
       <Skills />
       <Works />
       <Contact />
-      
+      <Footer />
     </div>
   </React.StrictMode>
 );
