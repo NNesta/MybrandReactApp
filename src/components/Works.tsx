@@ -15,7 +15,7 @@ const Works = (props: Props) => {
          <WorkCard title='Flashcard' image='/assets/flashcard.png' url='https://flashcard-project-fe.vercel.app/' github='https://github.com/NNesta/flashcard-project-fe'/>
          <WorkCard title='My brand project' image='/assets/brand1.png' url='https://inspiring-ride-2a0be8.netlify.app/' github='https://github.com/NNesta/Nestor-brand'/>
          <WorkCard title='My brand project' image='/assets/portifolio.png' url='https://portifolio-nnesta.vercel.app/' github='https://github.com/NNesta/MybrandReactApp'/>
-         <WorkCard title='FreshFood Restaurant' image='/assets/freshfood.png' url='https://expo.dev/@ngabonziza/FreshFoodRestaurant?serviceType=classic&distribution=expo-go' github='https://github.com/NNesta/FreshFoodRestaurant'/>
+         <WorkCard title='FreshFood Mobile app' image='/assets/freshfood.png' url='https://expo.dev/@ngabonziza/FreshFoodRestaurant?serviceType=classic&distribution=expo-go' github='https://github.com/NNesta/FreshFoodRestaurant'/>
         </div>
 
       </div>
