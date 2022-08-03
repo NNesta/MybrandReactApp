@@ -7,14 +7,14 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <div className='w-full h-fit flex-col'>
+    <div className='w-screen md:px-16 max-w-screen items-center justify0-center h-fit flex-col bg-[#10100e]'>
     <section
-      className="w-full md:h-[40vh] bg-[#10100e] flex justify-between md:px-40  md:pt-28 md:pb-40 text-white"
+      className="w-full md:h-[40vh]  md:flex justify-between  text-white"
       data-testid="page-footer"
       id="page-footer"
     >
-      <div className="w-1/2 flex items-center">
-        <div className="w-1/2 h-max pr-20 py-10 border-r border-teal-600 flex flex-col items-center">
+      <div className="md:w-2/3 md:flex items-center">
+        <div className="md:w-1/2 h-max pr-20 py-10 lg:border-r border-teal-600 justify-center flex-col items-center">
           <p className="text-3xl">
             <span className="text-4xl text-teal-600">N</span>gabonziza
             <span className="text-4xl text-teal-600 ml-3.5">N</span>estor
@@ -80,7 +80,7 @@ const Footer = (props: Props) => {
           </section>
         </div>
       </div>
-      <div className="w-max flex flex-col items-end justify-center">
+      <div className="md:w-1/3 py-4 flex flex-col items-end justify-center">
         <span className="w-full flex items-center">
           <GoLocation className="text-teal-600" />
           <span className="ml-3 text-teal-600">
@@ -103,10 +103,9 @@ const Footer = (props: Props) => {
         </span>
       </div>
     </section>
-<div className='h-16 w-full bg-[#375074] text-gray-200'>
-          <div className='flex items-center justify-center h-full space-x-16'>
+<div className='pb-2 w-full text-gray-200'>
+          <div className='h-full md:text-center'>
           <p> Copyright © 2022 Ngabonziza Nestor.</p>
-          <p className='hidden pl-16 border-l-2 border-gray-400 md:block'>Copyright Reserved</p>
           </div></div>
     </div>
   )

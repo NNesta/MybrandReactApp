@@ -9,7 +9,7 @@ const Navbar = (props: Props) => {
   const handleClick = () => setNavbar(!navbar);
   return (
   <div>
-    <div className='bg-[#23304c] top-0 left-0 fixed flex justify-between w-screen h-[80px] text-white z-50 px-4 items-center'>
+    <div className='bg-[#23304c] top-0 left-0 fixed flex justify-between w-screen max-w-screen h-[80px] text-white z-50 px-4 items-center'>
         {/* <h1 className='animate-bounce'>Nestor</h1> */}
          <Link to="home" smooth={true} duration={500}>
           <img className="w-16 h-16 rounded-full hover:scale-150" src="assets/logo.png" alt="" />

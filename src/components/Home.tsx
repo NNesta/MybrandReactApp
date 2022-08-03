@@ -6,7 +6,7 @@ type Props = {}
 
 export const Home = (props: Props) => {
   return (
-    <div id='home' className='bg-[#23304c] w-full h-fit min-h-screen flex justify-evenly items-center'>
+    <div id='home' className='bg-[#23304c] w-full max-w-screen h-fit min-h-screen flex justify-evenly items-center'>
         
        
       <div className='z-10 flex flex-col items-center justify-center ml-8 text-white'>
@@ -28,7 +28,7 @@ export const Home = (props: Props) => {
         
         </div>
         
-        <div className='items-center justify-center hidden md:flex'>
+        <div className='items-center justify-center hidden lg:flex'>
          <img className='w-64 h-64 border-4 border-white rounded-full custom-shadow' src="assets/PASSPORT.jpg" alt="" />
        {/*  <-- inner --> */}
         <div className='absolute flex items-center justify-between border border-gray-500 rounded-full hw-inner animate-spin-slow'>

@@ -17,7 +17,7 @@ const Contact = (props: Props) => {
     
   }
   return (
-    <div id='contact' className='w-full h-fit min-h-screen flex flex-col items-center p-4 bg-[#0a192f]'>
+    <div id='contact' className='w-full max-w-screen h-fit min-h-screen flex flex-col items-center p-4 bg-[#0a192f]'>
         <form onSubmitCapture={handleSubmit} className='flex flex-col gap-y-8 max-w-[600px] w-full' action="https://getform.io/f/2f8893b0-8ce6-4801-8767-4d5bb1dd2bfe" method="post">
           <h1 className='pt-16 mx-auto mb-8 text-white border-b-4 border-teal-600'>Contact me</h1>
           <InputComponent  type='text' name='Names' setData={setName} data={name} />

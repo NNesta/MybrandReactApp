@@ -7,7 +7,7 @@ type Props = {
 
 const Works = (props: Props) => {
   return (
-    <div id="works" className='w-full h-fit min-h-screen bg-[#375074] text-gray-200 flex justify-center items-center p-4'>
+    <div id="works" className='w-full max-w-screen h-fit min-h-screen bg-[#375074] text-gray-200 flex justify-center items-center p-4'>
       <div className='w-full h-fit max-w-[1000px] flex flex-col items-center justify-center mx-auto'>
         <h1 className='pt-16 border-b-4 border-teal-600'>Work done before</h1>
         <div className='grid w-full gap-4 py-8 overflow-scroll text-center sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4'>
