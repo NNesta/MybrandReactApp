@@ -17,7 +17,7 @@ const About = (props: Props) => {
           <p>Hi I am Nestor Ngabonziza a fullstack web developer</p>
         </div>
         <p className='first-letter:font-bold fon font-semibold first-letter:text-6xl first-line:uppercase'>
-Software developer enthustiast with knowledge and experience in web development using latest Technology looking for opportunities to extend my skillset. I am self motivated, disciplined and very focused on my works
+Software developer enthusiast with knowledge and experience in web development using latest Technology looking for opportunities to extend my skillset. I am self motivated, disciplined and very focused on my works
           </p>
           <p className='text-2xl font-bold'>I can work for <Typed className='text-teal-600' strings={[" Frontend", " Backend"]} typeSpeed={120} backSpeed={ 120 } loop backDelay={1200}/></p>
           <p className='text-2xl font-bold'>I can work for <Typed className='text-teal-600' strings={[" Website app", " Mobile app"]} typeSpeed={120} backSpeed={ 120 } loop backDelay={1200}/></p>
