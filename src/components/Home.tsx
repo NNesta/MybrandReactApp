@@ -29,7 +29,7 @@ export const Home = (props: Props) => {
         </div>
         
         <div className='items-center justify-center hidden lg:flex'>
-         <img className='w-64 h-64 border-4 border-white rounded-full custom-shadow' src="assets/PASSPORT.jpg" alt="" />
+         <img className='object-cover w-64 h-64 border-4 border-white rounded-full custom-shadow transform -rotate-2' src="assets/profile-3 (2).jpg" alt="" />
        {/*  <-- inner --> */}
         <div className='absolute flex items-center justify-between border border-gray-500 rounded-full hw-inner animate-spin-slow'>
           <div className='w-10 h-10 p-1 transform -translate-x-5 bg-black rounded-full custom-shadow anim-8s'>

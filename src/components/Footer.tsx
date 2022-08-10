@@ -7,7 +7,7 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <div className='w-screen md:px-16 max-w-screen items-center justify0-center h-fit flex-col bg-[#10100e]'>
+    <div className='w-screen md:px-16 max-w-screen items-center justify-center h-fit flex-col bg-[#10100e]'>
     <section
       className="w-full md:h-[40vh]  md:flex justify-between  text-white"
       data-testid="page-footer"
@@ -105,7 +105,7 @@ const Footer = (props: Props) => {
     </section>
 <div className='pb-2 w-full text-gray-200'>
           <div className='h-full md:text-center'>
-          <p> Copyright © 2022 Ngabonziza Nestor.</p>
+          <p> Copyright Reserved © 2022 Ngabonziza Nestor.</p>
           </div></div>
     </div>
   )
