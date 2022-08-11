@@ -15,7 +15,7 @@ export const Home = (props: Props) => {
             <p className='text-xl text-teal-600'>Hi my name is</p>
             <h1 className='tracking-wider'>NGABONZIZA NESTOR</h1>
         <h1>I'm a Full stack developer</h1>
-            <p>Web and Mobile App Developer</p>
+            <p>Website and Mobile App Developer</p>
             </div>
         <div className='flex -ml-8 gap-x-8'>
           <Link className='flex items-center font-normal bg-transparent border-2 border-white rounded-none btn group' to="works" smooth={true} duration={500}>
@@ -36,10 +36,10 @@ export const Home = (props: Props) => {
             <img className='object-center w-10 h-10 overflow-hidden animate-rotate-img anim-8s' src="assets/nodejs.png" alt="" />
           </div>
           <div className='bg-white rounded-full custom-shadow h-10 w-10 transform -translate-x-5 translate-y-[8rem] anim-8s'>
-            <img className='object-center w-10 h-10 rounded-full animate-rotate-img anim-8s' src="assets/ts-logo-128.png" alt="" />
+            <img className='object-cover w-10 h-10 rounded-full animate-rotate-img anim-8s' src="assets/nextjs.png" alt="" />
           </div>
           <div className='bg-white rounded-full custom-shadow h-10 w-10 transform translate-x-[4.5rem] -translate-y-[12rem] anim-8s'>
-            <img className='object-center w-10 h-10 rounded-full animate-rotate-img anim-8s' src="assets/graphql.png" alt="" />
+            <img className='object-center w-10 h-10 rounded-full animate-rotate-img anim-8s' src="assets/nestjs.png" alt="" />
           </div>
           <div className='bg-white rounded-full custom-shadow h-10 w-10 transform -translate-x-[7.3rem] -translate-y-[7.5rem] anim-8s'>
             <img className='object-center w-10 h-10 rounded-full animate-rotate-img anim-8s' src="assets/react.png" alt="" />

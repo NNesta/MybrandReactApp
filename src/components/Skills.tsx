@@ -14,6 +14,8 @@ const Skills = (props: Props) => {
        <CardComponent image="assets/nodejs.png" title='node js' />
        <CardComponent image="assets/ts-logo-128.png" title='typescript' />
        <CardComponent image="assets/react.png" title='React JS' />
+       <CardComponent image="assets/nestjs.png" title='Nest JS' />
+       <CardComponent image="assets/nextjs2.png" title='Next JS' />
        <CardComponent image="assets/react.png" title='react native' />
        <CardComponent image="assets/html.png" title='html' />
        <CardComponent image="assets/css.png" title='css' />
