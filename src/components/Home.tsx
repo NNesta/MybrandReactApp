@@ -9,7 +9,7 @@ export const Home = (props: Props) => {
     <div id='home' className='bg-[#23304c] w-full max-w-screen pt-20'>
       <div className=' container mx-auto'>
         <div className=' grid lg:grid-cols-2 gap-16 max-w-[90%] mx-auto items-center py-48 '>
-      <div className='z-10 flex flex-col items-center justify-center ml-8 text-white'>
+      <div className='z-10 flex flex-col items-center justify-center lg:ml-8 text-white'>
          {/* <img className='z-20 w-12 left-24 top-32 animate-ping' src="assets/logo.png" alt="" /> */}
             <div className=''>
             <p className='text-xl text-teal-600'>Hi my name is</p>
