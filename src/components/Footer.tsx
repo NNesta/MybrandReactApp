@@ -7,9 +7,10 @@ type Props = {}
 
 const Footer = (props: Props) => {
   return (
-    <div className='w-screen md:px-16 max-w-screen items-center justify-center h-fit flex-col bg-[#10100e]'>
+    <div className='bg-[#10100e]'>
+       <div className='w-screen px-8 md:px-16  container mx-auto items-center justify-center flex-col '>
     <section
-      className="w-full md:h-[40vh]  md:flex justify-between  text-white"
+      className="w-full md:py-6  md:flex justify-between items-center text-white"
       data-testid="page-footer"
       id="page-footer"
     >
@@ -104,10 +105,12 @@ const Footer = (props: Props) => {
       </div>
     </section>
 <div className='pb-2 w-full text-gray-200'>
-          <div className='h-full md:text-center'>
+          <div className='h-full text-center'>
           <p> Copyright Reserved © 2022 Ngabonziza Nestor.</p>
           </div></div>
     </div>
+    </div>
+   
   )
 }
 

@@ -15,7 +15,7 @@ const root = ReactDOM.createRoot(
 );
 root.render(
   <React.StrictMode>
-    <div className='relative flex flex-col'>
+    <div className='relative flex flex-col overflow-x-hidden '>
       <Navbar />
       <Home />
       <About />

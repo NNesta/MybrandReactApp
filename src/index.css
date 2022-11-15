@@ -10,7 +10,7 @@
         @apply cursor-pointer
     }
     body {
-        @apply font-[Poppins]
+        @apply font-[Poppins] scroll-smooth;
     }
     .input-text{
    @apply text-white bg-[#0a192f] text-opacity-70 transform -translate-x-2 -translate-y-4 scale-75;

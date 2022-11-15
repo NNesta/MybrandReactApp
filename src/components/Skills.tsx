@@ -5,7 +5,8 @@ type Props = {}
 
 const Skills = (props: Props) => {
   return (
-    <div id='skills' className='w-full max-w-screen h-fit min-h-screen bg-[#0a192f] text-gray-300 flex justify-center items-center p-4'>
+    <div className='bg-[#0a192f]'>
+    <div id='skills' className='w-full container mx-auto  text-gray-300 flex justify-center items-center py-16'>
       <div  className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full'>
       <div className='text-center'>
         <p className='pt-16 text-4xl font-bold border-b-4 border-teal-500'>Experience</p>
@@ -30,7 +31,7 @@ const Skills = (props: Props) => {
        <CardComponent image="assets/Java_logo_PNG9.png" title='java' />
       </div>
       </div>
-    </div>
+    </div></div>
   )
 }
 

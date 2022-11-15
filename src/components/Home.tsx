@@ -6,9 +6,9 @@ type Props = {}
 
 export const Home = (props: Props) => {
   return (
-    <div id='home' className='bg-[#23304c] w-full max-w-screen h-fit min-h-screen flex justify-evenly items-center'>
-        
-       
+    <div id='home' className='bg-[#23304c] w-full max-w-screen pt-20'>
+      <div className=' container mx-auto'>
+        <div className=' grid lg:grid-cols-2 gap-16 max-w-[90%] mx-auto items-center py-48 '>
       <div className='z-10 flex flex-col items-center justify-center ml-8 text-white'>
          {/* <img className='z-20 w-12 left-24 top-32 animate-ping' src="assets/logo.png" alt="" /> */}
             <div className=''>
@@ -17,18 +17,18 @@ export const Home = (props: Props) => {
         <h1>I'm a Full stack developer</h1>
             <p>Website and Mobile App Developer</p>
             </div>
-        <div className='flex -ml-8 gap-x-8'>
-          <Link className='flex items-center font-normal bg-transparent border-2 border-white rounded-none btn group' to="works" smooth={true} duration={500}>
+        <div className='flex lg:-ml-8 gap-x-8'>
+          <Link className='flex whitespace-nowrap items-center font-normal bg-transparent border-2 border-white rounded-none btn group' to="works" smooth={true} duration={500}>
           View My Works <span className='duration-300 group-hover:rotate-90'><HiArrowNarrowRight className='ml-3' /></span> 
            </Link>
-        <Link className='btn' to="contact" smooth={true} duration={500}>
+        <Link className='btn whitespace-nowrap' to="contact" smooth={true} duration={500}>
           Hire Me
         </Link>
             </div>
         
         </div>
         
-        <div className='items-center justify-center hidden lg:flex'>
+        <div className='items-center justify-center hidden lg:flex flex-1'>
          <img className='object-cover w-64 h-64 border-4 border-white rounded-full custom-shadow transform -rotate-2' src="assets/profile-3 (2).jpg" alt="" />
        {/*  <-- inner --> */}
         <div className='absolute flex items-center justify-between border border-gray-500 rounded-full hw-inner animate-spin-slow'>
@@ -83,7 +83,8 @@ export const Home = (props: Props) => {
             <img className='object-center w-10 h-10 rounded-full animate-rotate-img anim-8s' src="assets/rest-api.png" alt="" />
           </div>
  </div> 
-        </div>
+        </div></div></div>
+       
       </div>
   )
 }
