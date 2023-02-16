@@ -34,7 +34,7 @@ const Navbar = (props: Props) => {
     <div className={`w-full flex gap-8 justify-center text-white lg:justify-between items-center px-16 container bg-[#23304c] mx-auto`}>
         {/* <h1 className='animate-bounce'>Nestor</h1> */}
          <Link to="home" smooth={true} duration={500}>
-          <img className="w-16 h-16 rounded-full hover:scale-150" src="assets/logo.png" alt="" />
+          <img className="w-16 h-16 rounded-full hover:scale-150 duration-300 ease-in-out" src="assets/logo.png" alt="" />
         </Link>
     <ul className='hidden space-x-8 md:flex '>
           <li>

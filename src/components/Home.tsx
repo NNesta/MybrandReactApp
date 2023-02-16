@@ -19,7 +19,7 @@ export const Home = (props: Props) => {
             </div>
         <div className='flex lg:-ml-8 gap-x-8'>
           <Link className='flex whitespace-nowrap items-center font-normal bg-transparent border-2 border-white rounded-none btn group' to="works" smooth={true} duration={500}>
-          View My Works <span className='duration-300 group-hover:rotate-90'><HiArrowNarrowRight className='ml-3' /></span> 
+          View My Works <span className='duration-300 ease-in-out group-hover:rotate-90'><HiArrowNarrowRight className='ml-3' /></span> 
            </Link>
         <Link className='btn whitespace-nowrap' to="contact" smooth={true} duration={500}>
           Hire Me
