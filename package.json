@@ -21,7 +21,7 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "dev": "nodemon run start",
+    "dev": "npm run start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
@@ -47,7 +47,6 @@
   "devDependencies": {
     "@types/react-scroll": "^1.8.3",
     "autoprefixer": "^10.4.7",
-    "nodemon": "^2.0.19",
     "postcss": "^8.4.14",
     "tailwindcss": "^3.1.5"
   }

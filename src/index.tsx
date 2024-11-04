@@ -1,21 +1,21 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import reportWebVitals from './reportWebVitals';
-import Skills from './components/Skills';
-import About from './components/About';
-import Contact from './components/Contact';
-import Navbar from './components/navbar';
-import Works from './components/Works';
-import Footer from './components/Footer';
-import { Home } from './components/Home';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import reportWebVitals from "./reportWebVitals";
+import Skills from "./components/Skills";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Navbar from "./components/Navbar";
+import Works from "./components/Works";
+import Footer from "./components/Footer";
+import { Home } from "./components/Home";
 
 const root = ReactDOM.createRoot(
-  document.getElementById('root') as HTMLElement
+  document.getElementById("root") as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    <div className='relative flex flex-col overflow-x-hidden '>
+    <div className="relative flex flex-col overflow-x-hidden ">
       <Navbar />
       <Home />
       <About />

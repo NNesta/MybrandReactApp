@@ -1,38 +1,48 @@
-import React from 'react'
-import { CardComponent } from '../components/card';
+import { SkillsCard } from "./SkillsCard";
 
-type Props = {}
+const skillSet = [
+  { title: "node js", image: "assets/nodejs.png" },
+  { title: "typescript", image: "assets/ts-logo-128.png" },
+  { title: "React JS", image: "assets/react.png" },
+  { title: "Nest JS", image: "assets/nestjs.png" },
+  { title: "Next JS", image: "assets/nextjs2.png" },
+  { title: "react native", image: "assets/react.png" },
+  { title: "css", image: "assets/css.png" },
+  { image: "assets/tailwindcss.svg", title: "Tailwind css" },
+  { image: "assets/graphql.png", title: "Graphql" },
+  { image: "assets/rest-api.png", title: "rest api" },
+  { image: "assets/GitHub-Mark-Light-120px-plus.png", title: "Github" },
+  { image: "assets/Docker_logo_PNG15.png", title: "docker" },
+  { image: "assets/postgresql.png", title: "postgresql" },
+  { image: "assets/mongodb.png", title: "mongo db" },
+  { image: "assets/python.png", title: "python" },
+  { image: "assets/Java_logo_PNG9.png", title: "java" },
+];
 
-const Skills = (props: Props) => {
+const Skills = () => {
   return (
-    <div className='bg-[#0a192f]'>
-    <div id='skills' className='w-full container mx-auto  text-gray-300 flex justify-center items-center py-16'>
-      <div  className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full'>
-      <div className='text-center'>
-        <p className='pt-16 text-4xl font-bold border-b-4 border-teal-500'>Experience</p>
+    <div className="bg-[#0a192f]">
+      <div
+        id="skills"
+        className="w-full container mx-auto  text-gray-300 flex justify-center items-center py-16"
+      >
+        <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center items-center w-full">
+          <div className="text-center">
+            <p className="pt-16 text-4xl font-bold border-b-4 border-teal-500">
+              Experience
+            </p>
+          </div>
+          <div className="grid w-full grid-cols-2 gap-4 py-8 text-center sm:grid-cols-3 lg:grid-cols-4">
+            {skillSet.map(
+              (name: { image: string; title: string }, index: number) => (
+                <SkillsCard key={index} image={name.image} title={name.title} />
+              )
+            )}
+          </div>
         </div>
-      <div className='grid w-full grid-cols-2 gap-4 py-8 text-center sm:grid-cols-3 lg:grid-cols-4'>
-       <CardComponent image="assets/nodejs.png" title='node js' />
-       <CardComponent image="assets/ts-logo-128.png" title='typescript' />
-       <CardComponent image="assets/react.png" title='React JS' />
-       <CardComponent image="assets/nestjs.png" title='Nest JS' />
-       <CardComponent image="assets/nextjs2.png" title='Next JS' />
-       <CardComponent image="assets/react.png" title='react native' />
-       <CardComponent image="assets/html.png" title='html' />
-       <CardComponent image="assets/css.png" title='css' />
-       <CardComponent image="assets/tailwindcss.svg" title='Tailwind css' />
-       <CardComponent image="assets/graphql.png" title='Graphql' />
-       <CardComponent image="assets/rest-api.png" title='rest api' />
-       <CardComponent image="assets/GitHub-Mark-Light-120px-plus.png" title='Github' />
-       <CardComponent image="assets/Docker_logo_PNG15.png" title='docker' />
-       <CardComponent image="assets/postgresql.png" title='postgresql' />
-       <CardComponent image="assets/mongodb.png" title='mongo db' />
-       <CardComponent image="assets/python.png" title='python' />
-       <CardComponent image="assets/Java_logo_PNG9.png" title='java' />
       </div>
-      </div>
-    </div></div>
-  )
-}
+    </div>
+  );
+};
 
-export default Skills
+export default Skills;
