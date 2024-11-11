@@ -1,9 +1,6 @@
-import React from "react";
 import { ReactTyped } from "react-typed";
 
-type Props = {};
-
-const About = (props: Props) => {
+const About = () => {
   return (
     <div className="bg-[#375074]">
       <div
