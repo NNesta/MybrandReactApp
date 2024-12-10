@@ -15,7 +15,7 @@ export const works = [
     url: "https://enaccess.github.io/co-design-FE/",
   },
   {
-    title: "CSC Sensor App",
+    title: "Clean Cooking App",
     image: "./assets/works/sensor.jpeg",
   },
   {
