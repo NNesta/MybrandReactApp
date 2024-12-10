@@ -26,7 +26,7 @@ const WorkCard = (props: Props) => {
           top: y,
           width: 800,
         }}
-        className="shadow-lg shadow-[#040c16]  mx-auto object-contain content-div lg:group-hover:block hidden z-50"
+        className="shadow-lg shadow-[#040c16]  mx-auto object-contain content-div group-hover:block hidden z-50"
       >
         <img alt={props.title} src={props.image} />
       </section>
