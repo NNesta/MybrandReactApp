@@ -9,7 +9,7 @@ const Works = () => {
           <h1 className="pt-16 border-b-4 border-teal-600 self-center">
             SAMPLE PROJECTS
           </h1>
-          <div className="flex flex-col gap-6 py-8 px-24">
+          <div className="flex flex-col gap-6 py-8 px-4 lg:px-24">
             {works.map((work, index) => (
               <WorkCard
                 key={index}
